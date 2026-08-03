@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJsdSIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzRGQzNGNyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAyNzdCRCIvPjwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImZsT3V0ZXIiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNGRkUyN0EiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkIzMDAiLz48L2xpbmVhckdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJmbElubmVyIiBjeD0iNTAlIiBjeT0iNTIlIiByPSI1OCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI0ZGOEEwMCIvPjxzdG9wIG9mZnNldD0iNTUlIiBzdG9wLWNvbG9yPSIjRkI2RDAwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjQ1MTFFIi8+PC9yYWRpYWxHcmFkaWVudD4KICA8L2RlZnM+CiAgPGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSI5MiIgZmlsbD0idXJsKCNibHUpIi8+CiAgPGNpcmNsZSBjeD0iMTAwIiBjeT0iOTAiIHI9IjQyIiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIuMTMiLz4KICA8cGF0aCBkPSJNMTAwIDQ0IEMgMTE4IDc0LCAxMjYgOTIsIDExMiAxMTIgQyAxMDYgMTIwLCA5NCAxMjAsIDg4IDExMiBDIDc0IDkyLCA4MiA3NCwgMTAwIDQ0IFoiIGZpbGw9InVybCgjZmxPdXRlcikiLz4KICA8cGF0aCBkPSJNMTAwIDcyIEMgMTExIDkyLCAxMTUgMTAxLCAxMDcgMTEyIEMgMTAyIDExOCwgOTggMTE4LCA5MyAxMTIgQyA4NSAxMDEsIDg5IDkyLCAxMDAgNzIgWiIgZmlsbD0idXJsKCNmbElubmVyKSIvPgogIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI2MCIgcng9IjQuNSIgcnk9IjgiIGZpbGw9IiNGRkY2RDYiIG9wYWNpdHk9Ii45Ii8+CiAgPHBhdGggZD0iTTUyIDEyNiBRMTAwIDE1OCAxNDggMTI2IEwxMzggMTQwIFExMDAgMTY2IDYyIDE0MCBaIiBmaWxsPSIjRkZDQTI4Ii8+CiAgPHBhdGggZD0iTTYwIDEzMCBRMTAwIDE1MCAxNDAgMTMwIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgb3BhY2l0eT0iLjYiLz4KPC9zdmc+Cg==" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Change Maker Certificate — The Children of War Project</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --blue:#29B6F6; --blue-deep:#0288D1; --blue-ink:#0B3C5D;
+    --blue-soft:#E1F5FE; --yellow:#FFCA28; --yellow-soft:#FFF6DC;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#eef6fb;font-family:"Nunito",system-ui,sans-serif;color:var(--blue-ink)}
+
+  /* Control bar (hidden when printing) */
+  .controls{max-width:1000px;margin:22px auto;background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(2,136,209,.14);padding:20px 22px;display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end}
+  .controls h1{font-family:"Baloo 2";font-size:1.15rem;margin:0 0 2px;width:100%;color:var(--blue-ink)}
+  .controls p{margin:0 0 8px;width:100%;color:#5B7488;font-size:.92rem}
+  .ctl{display:flex;flex-direction:column;gap:5px}
+  .ctl label{font-weight:800;font-size:.8rem;color:var(--blue-deep)}
+  .ctl input,.ctl select{padding:10px 12px;border:2px solid var(--blue-soft);border-radius:10px;font-family:inherit;font-size:1rem;min-width:200px}
+  .btn-print{margin-left:auto;background:var(--blue-deep);color:#fff;border:none;border-radius:999px;padding:13px 26px;font-family:"Baloo 2";font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 8px 20px rgba(2,136,209,.35)}
+  .btn-print:hover{transform:translateY(-1px)}
+
+  /* Certificate */
+  .cert-wrap{display:flex;justify-content:center;padding:10px 16px 40px}
+  .cert{
+    width:1040px;max-width:100%;aspect-ratio:1.414/1;background:#fff;position:relative;
+    border-radius:10px;overflow:hidden;box-shadow:0 16px 44px rgba(2,136,209,.18);
+    background:
+      radial-gradient(600px 260px at 85% -8%, var(--yellow-soft), transparent 60%),
+      radial-gradient(600px 260px at 12% 108%, var(--blue-soft), transparent 60%),
+      #fff;
+  }
+  .cert .frame{position:absolute;inset:22px;border:3px solid var(--blue-deep);border-radius:8px}
+  .cert .frame2{position:absolute;inset:30px;border:1.5px solid var(--yellow);border-radius:6px}
+  .cert .inner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:6% 9%}
+  .cert .brand{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .cert .brand svg{width:46px;height:46px}
+  .cert .brand .bn{font-family:"Baloo 2";font-weight:800;font-size:1.15rem;color:var(--blue-ink);line-height:1}
+  .cert .brand .bn small{display:block;font-weight:700;font-size:.62rem;letter-spacing:.14em;color:var(--yellow);text-transform:uppercase}
+  .cert .ribbon{display:inline-block;background:var(--blue-deep);color:#fff;font-family:"Baloo 2";font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:.82rem;padding:8px 22px;border-radius:999px;margin:6px 0 14px}
+  .cert .pres{color:#5B7488;font-size:1rem;margin:0 0 6px}
+  .cert .name{font-family:"Baloo 2";font-weight:800;font-size:3rem;line-height:1.1;color:var(--blue-deep);margin:2px 0 6px}
+  .cert .rule{width:340px;max-width:70%;height:2px;background:var(--yellow);margin:0 auto 16px;border-radius:2px}
+  .cert .body{font-size:1.05rem;color:var(--blue-ink);max-width:640px;line-height:1.5;margin:0 0 14px}
+  .cert .tier{display:inline-flex;align-items:center;gap:10px;background:var(--yellow-soft);border:2px solid var(--yellow);border-radius:999px;padding:8px 20px;font-family:"Baloo 2";font-weight:800;color:var(--blue-ink);font-size:1.05rem;margin-bottom:22px}
+  .cert .tier .ico{font-size:1.3rem}
+  .cert .sign-row{display:flex;justify-content:space-between;width:100%;max-width:640px;margin-top:6px}
+  .cert .sign{width:44%;text-align:center}
+  .cert .sign .line{border-top:2px solid var(--blue-ink);padding-top:6px;font-weight:800;color:var(--blue-ink);font-size:.92rem}
+  .cert .sign .sub{font-size:.72rem;color:#5B7488;font-weight:700}
+  .cert .tagline{position:absolute;bottom:44px;left:0;right:0;text-align:center;font-family:"Baloo 2";font-weight:700;color:var(--blue-deep);opacity:.8;font-size:.9rem;letter-spacing:.02em}
+
+  @media print{
+    @page{ size:A4 landscape; margin:0 }
+    body{background:#fff}
+    .controls{display:none !important}
+    .cert-wrap{padding:0}
+    .cert{width:100%;height:100vh;aspect-ratio:auto;border-radius:0;box-shadow:none}
+  }
+  @media(max-width:560px){ .cert .name{font-size:2rem} .cert .body{font-size:.9rem} }
+</style>
+</head>
+<body>
+
+  <div class="controls">
+    <h1>🏆 Change Maker Certificate Maker</h1>
+    <p>Type the name, pick the level, and set the date. Then click <b>Print / Save as PDF</b> — choose “Save as PDF” as the printer to send it by email.</p>
+    <div class="ctl">
+      <label for="i-name">Recipient's name</label>
+      <input id="i-name" type="text" value="Jane Doe" />
+    </div>
+    <div class="ctl">
+      <label for="i-level">Level</label>
+      <select id="i-level">
+        <option value="Supporter">🌱 Supporter ($100+)</option>
+        <option value="Activist">⭐ Activist ($500+)</option>
+        <option value="Student Ambassador" selected>🏆 Student Ambassador ($1,000+)</option>
+      </select>
+    </div>
+    <div class="ctl">
+      <label for="i-date">Date</label>
+      <input id="i-date" type="text" placeholder="July 17, 2026" />
+    </div>
+    <button class="btn-print" onclick="window.print()">🖨 Print / Save as PDF</button>
+  </div>
+
+  <div class="cert-wrap">
+    <div class="cert">
+      <div class="frame"></div>
+      <div class="frame2"></div>
+      <div class="inner">
+        <div class="brand">
+          <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="lb3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4FC3F7"/><stop offset="1" stop-color="#0277BD"/></linearGradient><linearGradient id="lo3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE27A"/><stop offset="1" stop-color="#FFB300"/></linearGradient><radialGradient id="li3" cx="50%" cy="52%" r="58%"><stop offset="0" stop-color="#FF8A00"/><stop offset="55%" stop-color="#FB6D00"/><stop offset="100%" stop-color="#F4511E"/></radialGradient></defs><circle cx="100" cy="100" r="92" fill="url(#lb3)"/><path d="M100 44 C 118 74, 126 92, 112 112 C 106 120, 94 120, 88 112 C 74 92, 82 74, 100 44 Z" fill="url(#lo3)"/><path d="M100 72 C 111 92, 115 101, 107 112 C 102 118, 98 118, 93 112 C 85 101, 89 92, 100 72 Z" fill="url(#li3)"/><ellipse cx="100" cy="60" rx="4.5" ry="8" fill="#FFF6D6" opacity=".9"/><path d="M52 126 Q100 158 148 126 L138 140 Q100 166 62 140 Z" fill="#FFCA28"/><path d="M60 130 Q100 150 140 130" fill="none" stroke="#fff" stroke-width="3" opacity=".6"/></svg>
+          <span class="bn">The Children of War Project<small>(CoW)</small></span>
+        </div>
+        <span class="ribbon">Certificate of Appreciation</span>
+        <p class="pres">This certificate is proudly presented to</p>
+        <div class="name" id="c-name">Jane Doe</div>
+        <div class="rule"></div>
+        <p class="body">for joining The Children of War Project and helping bring <b>“Small Change for BIG Change”</b> to children affected by war and poverty. Your kindness and leadership light the lamp for kids who need it most.</p>
+        <div class="tier"><span class="ico" id="c-ico">🏆</span> <span id="c-level">Student Ambassador</span></div>
+        <div class="sign-row">
+          <div class="sign"><div class="line" id="c-date">July 17, 2026</div><div class="sub">Date</div></div>
+          <div class="sign"><div class="line">Yuvraaj Kumar (Yuvi)</div><div class="sub">Founder &amp; President</div></div>
+        </div>
+      </div>
+      <div class="tagline">Small Change · BIG Change · We are the lamp!</div>
+    </div>
+  </div>
+
+<script>
+  const icons = { "Supporter":"🌱", "Activist":"⭐", "Student Ambassador":"🏆" };
+  const nameEl = document.getElementById("i-name");
+  const levelEl = document.getElementById("i-level");
+  const dateEl = document.getElementById("i-date");
+
+  // default date = today
+  try {
+    dateEl.value = new Date().toLocaleDateString("en-US", { year:"numeric", month:"long", day:"numeric" });
+  } catch(e) { dateEl.value = ""; }
+
+  function render(){
+    document.getElementById("c-name").textContent = nameEl.value || "—";
+    const lvl = levelEl.value;
+    document.getElementById("c-level").textContent = lvl;
+    document.getElementById("c-ico").textContent = icons[lvl] || "🌱";
+    document.getElementById("c-date").textContent = dateEl.value || "";
+  }
+  nameEl.addEventListener("input", render);
+  levelEl.addEventListener("change", render);
+  dateEl.addEventListener("input", render);
+  render();
+</script>
+</body>
+</html>
